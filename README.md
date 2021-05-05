@@ -6,7 +6,7 @@
 # For a more colourful world
 
 Beautiful new epitech.eu on Chrome.
-Thanks to A.Hooks for for pourcents https://github.com/NialaH/myepitecheu
+Thanks to A.Hooks for pourcents https://github.com/NialaH/myepitecheu
 
 ## Prerequisites
 
