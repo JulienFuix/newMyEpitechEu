@@ -6,17 +6,7 @@
 # For a more colourful world
 
 Beautiful new epitech.eu on Chrome
-Thanks to A.Hooks
-
-With this Browser Extension, you can keep the original design of my.epitech.eu (in order to keep access to the level of advancement of your project)
-
-Warning : The displayed percentages are not representative of the grade that you will obtain once the module is validated.
-
-This extension injects 2 files (script.js and style.css) which calculate advancement percentage and modify the DOM (add percentage circle to project box). The script runed in background (background.js) allows the program to access the URL informations and sends a refresh event to script.js in order to fetch new ones.
-
-Just so you know: The displayed percentages are not representative of the grade you will obtain once the module is validated.
-
-This extension injects 2 files (script.js and style.css) which calculate advancement, percentage and modify the DOM (add percentage circle to project box). The script runed in background (background.js) allows the program to access the URL informations and sends a refresh event to script.js in order to fetch new ones.
+Thanks to A.Hooks for for pourcents https://github.com/NialaH/myepitecheu
 
 ## Prerequisites
 
