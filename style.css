@@ -103,88 +103,88 @@
 
 /** * $step is set to 5 by default, meaning you can only use percentage classes in increments of five (e.g. 25, 30, 45, 50, and so on). This helps to reduce the size of the final CSS file. If you need a number that doesn't end in 0 or 5, you can change the text percentage while rounding the class up/down to the nearest 5. */
 .progress--circle.progress--0:after {
-    background-image: linear-gradient(90deg, #ffcccc 50%, transparent 50%, transparent),
-        linear-gradient(90deg, #FF00F0 50%, #ffcccc 50%, #ffcccc);
+    background-image: linear-gradient(90deg, rgb(119,43,43) 50%, transparent 50%, transparent),
+        linear-gradient(90deg, rgb(255,0,0) 50%, rgb(119,43,43) 50%, rgb(119,43,43));
 }
 .progress--circle.progress--5:after {
-    background-image: linear-gradient(90deg, #ffcccc 50%, transparent 50%, transparent),
-        linear-gradient(108deg, #FF00F0 50%, #ffcccc 50%, #ffcccc);
+    background-image: linear-gradient(90deg, rgb(119,43,43) 50%, transparent 50%, transparent),
+        linear-gradient(108deg, rgb(255,0,0) 50%, rgb(119,43,43) 50%, rgb(119,43,43));
 }
 .progress--circle.progress--10:after {
-    background-image: linear-gradient(90deg, #ffcccc 50%, transparent 50%, transparent),
-        linear-gradient(126deg, #FF00F0 50%, #ffcccc 50%, #ffcccc);
+    background-image: linear-gradient(90deg, rgb(119,43,43) 50%, transparent 50%, transparent),
+        linear-gradient(126deg, rgb(255,0,0) 50%, rgb(119,43,43) 50%, rgb(119,43,43));
 }
 .progress--circle.progress--15:after {
-    background-image: linear-gradient(90deg, #ffcccc 50%, transparent 50%, transparent),
-        linear-gradient(144deg, #FF00F0 50%, #ffcccc 50%, #ffcccc);
+    background-image: linear-gradient(90deg, rgb(119,43,43) 50%, transparent 50%, transparent),
+        linear-gradient(144deg, rgb(255,0,0) 50%, rgb(119,43,43) 50%, rgb(119,43,43));
 }
 .progress--circle.progress--20:after {
-    background-image: linear-gradient(90deg, #ffcccc 50%, transparent 50%, transparent),
-        linear-gradient(162deg, #FF00F0 50%, #ffcccc 50%, #ffcccc);
+    background-image: linear-gradient(90deg, rgb(119,43,43) 50%, transparent 50%, transparent),
+        linear-gradient(162deg, rgb(255,0,0) 50%, rgb(119,43,43) 50%, rgb(119,43,43));
 }
 .progress--circle.progress--25:after {
-    background-image: linear-gradient(90deg, #ffeccd 50%, transparent 50%, transparent),
-        linear-gradient(180deg, #FFDC00 50%, #ffeccd 50%, #ffeccd);
+    background-image: linear-gradient(90deg, rgb(119,92,43) 50%, transparent 50%, transparent),
+        linear-gradient(180deg, rgb(255,165,0) 50%, rgb(119,92,43) 50%, rgb(119,92,43));
 }
 .progress--circle.progress--30:after {
-    background-image: linear-gradient(90deg, #ffeccd 50%, transparent 50%, transparent),
-        linear-gradient(198deg, #FFDC00 50%, #ffeccd 50%, #ffeccd);
+    background-image: linear-gradient(90deg, rgb(119,92,43) 50%, transparent 50%, transparent),
+        linear-gradient(198deg, rgb(255,165,0) 50%, rgb(119,92,43) 50%, rgb(119,92,43));
 }
 .progress--circle.progress--35:after {
-    background-image: linear-gradient(90deg, #ffeccd 50%, transparent 50%, transparent),
-        linear-gradient(216deg, #FFDC00 50%, #ffeccd 50%, #ffeccd);
+    background-image: linear-gradient(90deg, rgb(119,92,43) 50%, transparent 50%, transparent),
+        linear-gradient(216deg, rgb(255,165,0) 50%, rgb(119,92,43) 50%, rgb(119,92,43));
 }
 .progress--circle.progress--40:after {
-    background-image: linear-gradient(90deg, #ffeccd 50%, transparent 50%, transparent),
-        linear-gradient(234deg, #FFDC00 50%, #ffeccd 50%, #ffeccd);
+    background-image: linear-gradient(90deg, rgb(119,92,43) 50%, transparent 50%, transparent),
+        linear-gradient(234deg, rgb(255,165,0) 50%, rgb(119,92,43) 50%, rgb(119,92,43));
 }
 .progress--circle.progress--45:after {
-    background-image: linear-gradient(90deg, #ffeccd 50%, transparent 50%, transparent),
-        linear-gradient(252deg, #FFDC00 50%, #ffeccd 50%, #ffeccd);
+    background-image: linear-gradient(90deg, rgb(119,92,43) 50%, transparent 50%, transparent),
+        linear-gradient(252deg, rgb(255,165,0) 50%, rgb(119,92,43) 50%, rgb(119,92,43));
 }
 .progress--circle.progress--50:after {
-    background-image: linear-gradient(-90deg, #FFDC00 50%, transparent 50%, transparent),
-        linear-gradient(270deg, #FFDC00 50%, #ffeccd 50%, #ffeccd);
+    background-image: linear-gradient(-90deg, rgb(255,165,0) 50%, transparent 50%, transparent),
+        linear-gradient(270deg, rgb(255,165,0) 50%, rgb(119,92,43) 50%, rgb(119,92,43));
 }
 .progress--circle.progress--55:after {
-    background-image: linear-gradient(-72deg, #FFDC00 50%, transparent 50%, transparent),
-        linear-gradient(270deg, #FFDC00 50%, #ffeccd 50%, #ffeccd);
+    background-image: linear-gradient(-72deg, rgb(255,165,0) 50%, transparent 50%, transparent),
+        linear-gradient(270deg, rgb(255,165,0) 50%, rgb(119,92,43) 50%, rgb(119,92,43));
 }
 .progress--circle.progress--60:after {
-    background-image: linear-gradient(-54deg, #FFDC00 50%, transparent 50%, transparent),
-        linear-gradient(270deg, #FFDC00 50%, #ffeccd 50%, #ffeccd);
+    background-image: linear-gradient(-54deg, rgb(255,165,0) 50%, transparent 50%, transparent),
+        linear-gradient(270deg, rgb(255,165,0) 50%, rgb(119,92,43) 50%, rgb(119,92,43));
 }
 .progress--circle.progress--65:after {
-    background-image: linear-gradient(-36deg, #FFDC00 50%, transparent 50%, transparent),
-        linear-gradient(270deg, #FFDC00 50%, #ffeccd 50%, #ffeccd);
+    background-image: linear-gradient(-36deg, rgb(255,165,0) 50%, transparent 50%, transparent),
+        linear-gradient(270deg, rgb(255,165,0) 50%, rgb(119,92,43) 50%, rgb(119,92,43));
 }
 .progress--circle.progress--70:after {
-    background-image: linear-gradient(-18deg, #FFDC00 50%, transparent 50%, transparent),
-        linear-gradient(270deg, #FFDC00 50%, #ffeccd 50%, #ffeccd);
+    background-image: linear-gradient(-18deg, rgb(255,165,0) 50%, transparent 50%, transparent),
+        linear-gradient(270deg, rgb(255,165,0) 50%, rgb(119,92,43) 50%, rgb(119,92,43));
 }
 .progress--circle.progress--75:after {
-    background-image: linear-gradient(0deg, #0074FF 50%, transparent 50%, transparent),
-        linear-gradient(270deg, #0074FF 50%, #d3f6d5 50%, #d3f6d5);
+    background-image: linear-gradient(0deg, limegreen 50%, transparent 50%, transparent),
+        linear-gradient(270deg, limegreen 50%, rgb(58, 104, 58) 50%, rgb(58, 104, 58));
 }
 .progress--circle.progress--80:after {
-    background-image: linear-gradient(18deg, #0074FF 50%, transparent 50%, transparent),
-        linear-gradient(270deg, #0074FF 50%, #d3f6d5 50%, #d3f6d5);
+    background-image: linear-gradient(18deg, limegreen 50%, transparent 50%, transparent),
+        linear-gradient(270deg, limegreen 50%, rgb(58, 104, 58) 50%, rgb(58, 104, 58));
 }
 .progress--circle.progress--85:after {
-    background-image: linear-gradient(36deg, #0074FF 50%, transparent 50%, transparent),
-        linear-gradient(270deg, #0074FF 50%, #d3f6d5 50%, #d3f6d5);
+    background-image: linear-gradient(36deg, limegreen 50%, transparent 50%, transparent),
+        linear-gradient(270deg, limegreen 50%, rgb(58, 104, 58) 50%, rgb(58, 104, 58));
 }
 .progress--circle.progress--90:after {
-    background-image: linear-gradient(54deg, #0074FF 50%, transparent 50%, transparent),
-        linear-gradient(270deg, #0074FF 50%, #d3f6d5 50%, #d3f6d5);
+    background-image: linear-gradient(54deg, limegreen 50%, transparent 50%, transparent),
+        linear-gradient(270deg, limegreen 50%, rgb(58, 104, 58) 50%, rgb(58, 104, 58));
 }
 .progress--circle.progress--95:after {
-    background-image: linear-gradient(72deg, #0074FF 50%, transparent 50%, transparent),
-        linear-gradient(270deg, #0074FF 50%, #d3f6d5 50%, #d3f6d5);
+    background-image: linear-gradient(72deg, limegreen 50%, transparent 50%, transparent),
+        linear-gradient(270deg, limegreen 50%, rgb(58, 104, 58) 50%, rgb(58, 104, 58));
 }
 .progress--circle.progress--100:after {
-    background-image: linear-gradient(90deg, #0074FF 50%, transparent 50%, transparent),
-        linear-gradient(270deg, #0074FF 50%, #d3f6d5 50%, #d3f6d5);
+    background-image: linear-gradient(90deg, limegreen 50%, transparent 50%, transparent),
+        linear-gradient(270deg, limegreen 50%, rgb(58, 104, 58) 50%, rgb(58, 104, 58));
 }
 
 .mdl-layout {
@@ -362,15 +362,26 @@
 }
 
 .mdl-grid .mdl-cell .mdl-card .mdl-card__actions {
-    width: 15% !important;
+    width: 20% !important;
 }
 
 .mdl-grid .mdl-cell .mdl-card .mdl-card__supporting-text {
-    width: 45% !important;
+    width: 30% !important;
 }
 
 .mdl-grid .mdl-cell .mdl-card .mdl-card__title {
     position: absolute !important;
+}
+
+.mdl-grid .mdl-cell .mdl-list {
+    margin-left: 0 !important;
+    width: 100% !important;
+}
+
+.mdl-grid .mdl-cell .mdl-list__item {
+    padding-right: 0px;
+    padding-left: 0px;
+    color: white;
 }
 
 .mdl-cell .mdl-color-text--black {
@@ -393,4 +404,16 @@
 
 .mdl-layout__header-row {
     background-color: #5b5b5b !important;
+}
+
+.mdl-button--raised.mdl-button--colored {
+    width: 120px !important;
+    height: 50px !important;
+    border-radius: 0.7em !important;
+    background: rgb(68,189,50) !important;
+    background: linear-gradient(90deg, rgba(68,189,50,1) 23%, rgba(76,209,55,1) 58%) !important;
+}
+
+.mdl-grid .mdl-color-text--primary {
+    color: #2ecc71 !important;
 }
