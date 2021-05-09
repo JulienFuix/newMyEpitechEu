@@ -350,11 +350,6 @@
     display: none;
 }
 
-/* .mdl-grid .mdl-cell {
-    border: 3px solid red !important;
-    border-radius: 21px !important;
-} */
-
 .mdl-grid .mdl-cell .mdl-card {
     background-color: transparent !important;
     display: flex;
@@ -371,6 +366,18 @@
 
 .mdl-grid .mdl-cell .mdl-card .mdl-card__title {
     position: absolute !important;
+    height: 100%;
+    width: 1000px !important;
+}
+
+.mdl-card .mdl-card__title .mdl-card__title-text {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.mdl-card .mdl-card__title .mdl-card__title-text .mdl-typography--text-right {
+    text-align: left !important;
 }
 
 .mdl-grid .mdl-cell .mdl-list {
