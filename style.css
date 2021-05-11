@@ -444,3 +444,22 @@
 .mdl-cell .mdl-typography--title-color-contrast .mdl-grid {
     flex-direction: row !important;
 }
+
+.mdl-typography--body-1-force-preferred-font-color-contrast {
+    color: white;
+}
+
+.mdl-typography--text-center {
+    color: white;
+    text-transform: bold;
+}
+
+.mdl-typography--text-left {
+    color: white;
+    text-transform: bold;
+}
+
+.mdl-typography--text-right {
+    color: white;
+    text-transform: bold;
+}
